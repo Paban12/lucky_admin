@@ -7,8 +7,8 @@ import { useState } from "react";
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
 // const host = "http://93.127.185.201:3838"; // "http://luckyhits.in:2828"; // "http://192.168.0.203:2828"// 
-const host = "http://api.blackandwhitegame.in:3030/"; // "http://luckyhits.in:2828"; // "http://192.168.0.203:2828"// 
-// const host = "http://localhost:2828"; // "http://luckyhits.in:2828"; // "http://192.168.0.203:2828"// 
+const host = "http://api.blackandwhitegame.in:3030"; // "http://luckyhits.in:2828"; // "http://192.168.0.203:2828"// 
+// const host = "http://localhost:3030"; // "http://luckyhits.in:2828"; // "http://192.168.0.203:2828"// 
 
 
 function LeftSide() {

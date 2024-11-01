@@ -5,9 +5,9 @@ import React, { useState, useEffect } from 'react';
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
 
-const host = "http://api.blackandwhitegame.in:3030/" // "http://192.168.0.203:2828"//"http://luckyhits.in:2828"; //
+const host = "http://api.blackandwhitegame.in:3030" // "http://192.168.0.203:2828"//"http://luckyhits.in:2828"; //
 // const host = "http://93.127.185.201:3838" // "http://192.168.0.203:2828"//"http://luckyhits.in:2828"; //
-// const host = "http://localhost:2828" // "http://192.168.0.203:2828"//"http://luckyhits.in:2828"; //
+// const host = "http://localhost:3030" // "http://192.168.0.203:2828"//"http://luckyhits.in:2828"; //
 //const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQ5Y2NlM2JhNDA4YTJlMjg3ZjJlYzUiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQHNpc3VnYW16LmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJHhZZzVMUlNRRWxiNENOZnVocjdncmUyUjNMOUQ5eDhaWmc0c0QxSW9uY1N6ZWFTSHgzMTIuIiwiY3JlYXRlZEF0IjoiMjAyMy0xMS0wN1QwNTozNjozNS42NjBaIiwibW9kaWZpZWRBdCI6IjIwMjMtMTEtMDdUMDU6MzY6MzUuNjYwWiIsImlhdCI6MTY5OTMzNTQxMywiZXhwIjoxNjk5OTQwMjEzfQ.NrLsWSnyD09P3h30rsng_R3bygn3TsKl8nXyD7qom4c";
 
 const OfferState = (props) => {
