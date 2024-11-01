@@ -34,7 +34,7 @@ function App() {
 
     if(url[1] != "/signin"){
       // window.location.href =  "http://93.127.185.201:5173/signin"    //"http://192.168.0.203:5173/signin" //'http://luckyhits.in:5173/signin'; //
-      window.location.href =  "http://admin.blackandwhitegame.in/signin"    //"http://192.168.0.203:5173/signin" //'http://luckyhits.in:5173/signin'; //
+      window.location.href =  "http://blackandwhitegame.in:5173/signin"    //"http://192.168.0.203:5173/signin" //'http://luckyhits.in:5173/signin'; //
       
       return false
     }
